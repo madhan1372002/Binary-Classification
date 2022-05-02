@@ -23,7 +23,7 @@ For example, in medical diagnosis, a binary classifier for a specific disease co
 
 ## PROGRAM:
 
-python
+```python
 
 #Program to implement binary classification.
 #Developed by: Vigneshwar S
@@ -44,7 +44,7 @@ for label,_ in counter.items():
     pyplot.scatter(X[row_ix,0],X[row_ix,1],label=str(label))
 pyplot.legend()
 
-
+```
 ## OUTPUT:
 ![image](https://user-images.githubusercontent.com/83399375/164516936-ccda173a-7688-43d6-8ac1-17845ef568c0.png)
 
